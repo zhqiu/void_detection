@@ -2,8 +2,10 @@ result:
 
     Method             |  Mean ACC          |  AUROC
 --------------------------------------------------------------
+    PCA                |       ------       |  0.5757+-0.0064   (unsupervised)
+                       |                    |
     KernelPCA          |       ------       |  0.8180+-0.0052   (unsupervised)
-
+                       |                    |
     LogisticRegression |   0.9674+-0.0054   |  0.9905+-0.0016   (supervised)
                        |                    |
     SVM                |   0.9683+-0.0031   |  0.9963+-0.0005   (supervised)
